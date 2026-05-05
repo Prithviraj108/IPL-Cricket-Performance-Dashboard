@@ -31,22 +31,35 @@ using Python, SQL and Power BI.
 ## 📁 Project Structure
 
 IPL-Cricket-Performance-Dashboard/
+
 ├── data/               → Raw CSV files (matches + deliveries)
+
 ├── notebooks/          → Google Colab notebook (Phase 1)
+
 ├── sql/                → All 8 SQL business queries
+
 ├── exports/            → Cleaned CSV outputs from SQL queries
+
 ├── powerbi/            → Power BI .pbix dashboard file
+
 ├── screenshots/        → Dashboard page screenshots
+
 └── README.md
 
 ## 🔄 Project Pipeline
 
 Raw CSV Data
+
 ↓
+
 Google Colab — Clean, transform, engineer features
+
 ↓
+
 SQLite Database — Store 5 tables, write 8 business queries
+
 ↓
+
 Power BI — 5-page interactive dashboard
 
 ---
